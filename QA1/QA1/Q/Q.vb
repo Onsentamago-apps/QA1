@@ -46,7 +46,7 @@ Module Q2
     Public Q2type As String = "select"　'問題の種類（）
     Public Q2ans1 As String = "6500"
     Public Q2ans2 As String = "7500"
-    Public Q2ans3 As String = "30"
+    Public Q2ans3 As String = "12000"
     Public Q2ansr As String = "ans1"
     Public Q2pict As Bitmap = Nothing
 
