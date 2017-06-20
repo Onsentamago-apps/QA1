@@ -39,12 +39,16 @@
 
     Private Sub Checkcorrect(Optional A As String = "")
         If ansr = A Then
-            cor.Play()
+            If My.Settings.sound = "True" Then
+                cor.Play()
+            End If
             corr = corr + 1
             MessageBox.Show("正解", "正解")
             Runload()
         Else
-            icor.Play()
+            If My.Settings.sound = "True" Then
+                icor.Play()
+            End If
             incorr = incorr + 1
             MessageBox.Show("不正解", "不正解")
             Runload()

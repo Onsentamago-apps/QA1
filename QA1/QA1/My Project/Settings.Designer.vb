@@ -65,6 +65,18 @@ Namespace My
                 Me("detal") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property sound() As String
+            Get
+                Return CType(Me("sound"),String)
+            End Get
+            Set
+                Me("sound") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
