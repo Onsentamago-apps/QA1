@@ -1,8 +1,8 @@
 ﻿Module Q
 
-    Public all As Integer = 15 '全問題数
+    Public all As Integer = 16 '全問題数
     Public easyth As Integer = 6 'Easy数
-    Public normth As Integer = 5 'Normal数
+    Public normth As Integer = 6 'Normal数
     Public highth As Integer = 4 'Hard数
 
 End Module
@@ -462,5 +462,19 @@ Module Q15
         ansr = Q15ansr
         qtype = Q15type
         qname = Q15name
+    End Sub
+End Module
+
+Module Q16
+    Public Sub initQ16()
+        qname = "Windows10の前は何だったか"
+        qans1 = "Windows9"
+        qans2 = "Windows Server 2012 R2"
+        qans3 = "Windows 8.1"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
     End Sub
 End Module

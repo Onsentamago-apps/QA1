@@ -46,6 +46,9 @@
             ElseIf readed = 4 Then
                 initQ14()
                 readed = readed + 1
+            ElseIf readed = 5 Then
+                initQ16()
+                readed = readed + 1
             End If
         ElseIf D = "h" Then 'hard時の自動選別
             If readed = 0 Then

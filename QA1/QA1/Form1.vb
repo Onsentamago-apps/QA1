@@ -15,11 +15,9 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ans1.Click
-        If qtype = "Ans" Then
-            Checkcorrect(tbox)
-        Else　'Select
-            Checkcorrect("ans1")
-        End If
+
+        Checkcorrect("ans1")
+
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles ans2.Click
