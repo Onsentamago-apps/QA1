@@ -22,19 +22,8 @@ Partial Class setop
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(12, 12)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(48, 16)
-        Me.CheckBox1.TabIndex = 0
-        Me.CheckBox1.Text = "解説"
-        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -51,14 +40,10 @@ Partial Class setop
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(344, 218)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Name = "setop"
         Me.Text = "setop"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Button1 As Button
 End Class
