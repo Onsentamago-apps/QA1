@@ -170,7 +170,16 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
+    <Compile Include="Module.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="My Project\Module1.vb" />
+    <Compile Include="QA1.aspx.designer.vb">
+      <DependentUpon>QA1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QA1.aspx.vb">
+      <DependentUpon>QA1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -189,7 +198,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Result.aspx.designer.vb">
+      <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Result.aspx.vb">
+      <DependentUpon>Result.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -218,8 +233,10 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="QA1.aspx" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Result.aspx" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -245,17 +262,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Content\Site.css" />
-    <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
-    <Content Include="Views\Home\Contact.vbhtml" />
-    <Content Include="Views\Home\Index.vbhtml" />
-    <Content Include="Views\Shared\Error.vbhtml" />
-    <Content Include="Views\Shared\_Layout.vbhtml" />
-    <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Q\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
