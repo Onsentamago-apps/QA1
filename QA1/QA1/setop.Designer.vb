@@ -53,6 +53,7 @@ Partial Class setop
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "setop"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "オプション"
         Me.ResumeLayout(False)
         Me.PerformLayout()
