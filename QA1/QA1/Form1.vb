@@ -82,7 +82,8 @@
             diffic = "Hard"
 
         ElseIf now = high Then
-            MessageBox.Show("おめでとうございます" & Environment.NewLine & "すべての問題が終わりました" & Environment.NewLine & "正答率：" & Calcper(all, corr) & "％", "おめでとうございます")
+            MessageBox.Show("おめでとうございます" & Environment.NewLine & "すべての問題が終わりました" & Environment.NewLine & "正答率：" & Calcper(all, corr) & "％" & Environment.NewLine & "前回の正答率：" & My.Settings.latestper & "％", "おめでとうございます")
+            My.Settings.latestper = Calcper(all, corr)
             Me.Close()
         End If
 
