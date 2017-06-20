@@ -2,7 +2,7 @@
     Public high As Integer
     Dim normal As Integer
 
-
+    Public diffic As String = "Easy"
     Public corr As Integer = 0
     Public incorr As Integer = 0
     Public now As Integer = 1
@@ -63,22 +63,30 @@
         If now < easyth Then
             'MessageBox.Show("loadby e", "")
             loadq("e")
+            diffic = "Easy"
         ElseIf now = easy Then
             readed = 0
             loadq("n")
+            diffic = "Normal"
         ElseIf now < normal Then
             'MessageBox.Show("loadby n", "")
             loadq("n")
+            diffic = "Normal"
         ElseIf now = normal Then
             readed = 0
             loadq("h")
+            diffic = "Hard"
         ElseIf now < high Then
             'MessageBox.Show("loadby h", "")
             loadq("h")
+            diffic = "Hard"
+
         ElseIf now = high Then
             MessageBox.Show("おめでとうございます" & Environment.NewLine & "すべての問題が終わりました" & Environment.NewLine & "正答率：" & Calcper(all, corr) & "％", "おめでとうございます")
             Me.Close()
         End If
+
+        Me.Text = "クイズゲーム1  " & diffic
 
         now = now + 1
         Exit Sub
