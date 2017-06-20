@@ -27,7 +27,6 @@ Partial Class Form1
         Me.ans3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -78,13 +77,6 @@ Partial Class Form1
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Label1"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(396, 76)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(213, 19)
-        Me.TextBox1.TabIndex = 5
-        '
         'PictureBox1
         '
         Me.PictureBox1.Location = New System.Drawing.Point(93, 90)
@@ -100,7 +92,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 194)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.ans3)
@@ -121,6 +112,5 @@ Partial Class Form1
     Friend WithEvents ans3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
 End Class

@@ -24,17 +24,8 @@ Module Q1
         Form1.PictureBox1.Image = Q1pict
 
 
-        If Q1type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q1ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q1type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q1ans1
+
         Form1.ans2.Text = Q1ans2
         Form1.ans3.Text = Q1ans3
         Form1.Label1.Text = qname
@@ -65,17 +56,7 @@ Module Q2
 
         Form1.PictureBox1.Image = Q2pict
 
-        If Q2type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q2ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q2type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q2ans1
         Form1.ans2.Text = Q2ans2
         Form1.ans3.Text = Q2ans3
         Form1.Label1.Text = qname
@@ -105,17 +86,7 @@ Module Q3
 
         Form1.PictureBox1.Image = Q3pict
 
-        If Q3type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q3ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q3type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q3ans1
         Form1.ans2.Text = Q3ans2
         Form1.ans3.Text = Q3ans3
         Form1.Label1.Text = qname
@@ -144,17 +115,8 @@ Module Q4
 
         Form1.PictureBox1.Image = Q4pict
 
-        If Q4type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q4ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q4type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q4ans1
+
         Form1.ans2.Text = Q4ans2
         Form1.ans3.Text = Q4ans3
         Form1.Label1.Text = qname
@@ -184,17 +146,8 @@ Module Q5
 
         Form1.PictureBox1.Image = Q5pict
 
-        If Q5type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q5ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q5type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q5ans1
+
         Form1.ans2.Text = Q5ans2
         Form1.ans3.Text = Q5ans3
         Form1.Label1.Text = qname
@@ -224,17 +177,8 @@ Module Q6
 
         Form1.PictureBox1.Image = Q6pict
 
-        If Q6type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q6ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q6type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q6ans1
+
         Form1.ans2.Text = Q6ans2
         Form1.ans3.Text = Q6ans3
         Form1.Label1.Text = qname
@@ -265,17 +209,8 @@ Module Q7 'E
         pict = Q7pict
         Form1.PictureBox1.Image = pict
 
-        If Q7type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q7ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q7type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q7ans1
+
         Form1.ans2.Text = Q7ans2
         Form1.ans3.Text = Q7ans3
         Form1.Label1.Text = qname
@@ -305,17 +240,8 @@ Module Q8 'E
 
         Form1.PictureBox1.Image = Q8pict
 
-        If Q8type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q8ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q8type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q8ans1
+
         Form1.ans2.Text = Q8ans2
         Form1.ans3.Text = Q8ans3
         Form1.Label1.Text = qname
@@ -345,17 +271,7 @@ Module Q9
 
         Form1.PictureBox1.Image = Q9pict
 
-        If Q9type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q9ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q9type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q9ans1
         Form1.ans2.Text = Q9ans2
         Form1.ans3.Text = Q9ans3
         Form1.Label1.Text = qname
@@ -384,17 +300,8 @@ Module Q10 'N
 
         Form1.PictureBox1.Image = Q10pict
 
-        If Q10type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q10ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q10type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q10ans1
+
         Form1.ans2.Text = Q10ans2
         Form1.ans3.Text = Q10ans3
         Form1.Label1.Text = qname
@@ -424,17 +331,8 @@ Module Q11 'E
 
         Form1.PictureBox1.Image = Q11pict
 
-        If Q11type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q11ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q11type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q11ans1
+
         Form1.ans2.Text = Q11ans2
         Form1.ans3.Text = Q11ans3
         Form1.Label1.Text = qname
@@ -464,17 +362,8 @@ Module Q12
 
         Form1.PictureBox1.Image = Q12pict
 
-        If Q12type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q12ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q12type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q12ans1
+
         Form1.ans2.Text = Q12ans2
         Form1.ans3.Text = Q12ans3
         Form1.Label1.Text = qname
@@ -504,17 +393,8 @@ Module Q13 'N
 
         Form1.PictureBox1.Image = Q13pict
 
-        If Q13type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q13ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q13type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q13ans1
+
         Form1.ans2.Text = Q13ans2
         Form1.ans3.Text = Q13ans3
         Form1.Label1.Text = qname
@@ -544,17 +424,9 @@ Module Q14
 
         Form1.PictureBox1.Image = Q14pict
 
-        If Q14type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q14ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q14type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+
+        Form1.ans1.Text = Q14ans1
+
         Form1.ans2.Text = Q14ans2
         Form1.ans3.Text = Q14ans3
         Form1.Label1.Text = qname
@@ -584,17 +456,8 @@ Module Q15
 
         Form1.PictureBox1.Image = Q15pict
 
-        If Q15type = "select" Then
-            Form1.TextBox1.Visible = False
-            Form1.ans1.Text = Q15ans1
-            Form1.ans2.Visible = True
-            Form1.ans3.Visible = True
-        ElseIf Q15type = "ans" Then
-            Form1.TextBox1.Visible = True
-            Form1.ans1.Text = "答える"
-            Form1.ans2.Visible = False
-            Form1.ans3.Visible = False
-        End If
+        Form1.ans1.Text = Q15ans1
+
         Form1.ans2.Text = Q15ans2
         Form1.ans3.Text = Q15ans3
         Form1.Label1.Text = qname

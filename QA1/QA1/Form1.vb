@@ -15,7 +15,6 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ans1.Click
-        tbox = TextBox1.Text
         If qtype = "Ans" Then
             Checkcorrect(tbox)
         Else　'Select
