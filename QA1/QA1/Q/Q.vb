@@ -1,9 +1,9 @@
 ﻿Module Q
 
-    Public all As Integer = 16 '全問題数
+    Public all As Integer = 20 '全問題数
     Public easyth As Integer = 6 'Easy数
-    Public normth As Integer = 6 'Normal数
-    Public highth As Integer = 4 'Hard数
+    Public normth As Integer = 9 'Normal数
+    Public highth As Integer = 5 'Hard数
 
 End Module
 
@@ -472,6 +472,62 @@ Module Q16
         qans2 = "Windows Server 2012 R2"
         qans3 = "Windows 8.1"
         ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q17
+    Public Sub initQ17()
+        qname = "Windowsの起動音が最初についたのは何でしょう"
+        qans1 = "Windows3"
+        qans2 = "Windows3.1"
+        qans3 = "Windows XP"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q18
+    Public Sub initQ18()
+        qname = "Android 4.1 のコードネームは"
+        qans1 = "Jelly Beans"
+        qans2 = "Jelly Bean"
+        qans3 = "Nougats"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q19
+    Public Sub initQ19()
+        qname = "Androidの標準パッケージの拡張子は"
+        qans1 = "app"
+        qans2 = "apk"
+        qans3 = "apf"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q20
+    Public Sub initQ20()
+        qname = "Windows Aeroが実装されたのは何から"
+        qans1 = "Windows Vista"
+        qans2 = "Windows XP"
+        qans3 = "Windows 7"
+        ansr = "ans1"
         Form1.ans1.Text = qans1
         Form1.ans2.Text = qans2
         Form1.ans3.Text = qans3
