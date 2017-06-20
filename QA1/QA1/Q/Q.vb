@@ -449,25 +449,18 @@ Module Q15
     Public Q15ans3 As String = “駒から離れたところで使う奏法"
     Public Q15ansr As String = "ans2"
     Public Q15pict As Bitmap = Nothing
-
     Public Sub initQ15()
-        'qname = N & "name"
         qname = Q15name
-
         Form1.PictureBox1.Image = Q15pict
-
         Form1.ans1.Text = Q15ans1
-
         Form1.ans2.Text = Q15ans2
         Form1.ans3.Text = Q15ans3
         Form1.Label1.Text = qname
-
         qans1 = Q15ans1
         qans2 = Q15ans2
         qans3 = Q15ans3
         ansr = Q15ansr
         qtype = Q15type
         qname = Q15name
-
     End Sub
 End Module
