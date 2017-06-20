@@ -24,31 +24,20 @@
     End Sub
 
     Protected Sub ans1b_Click(sender As Object, e As EventArgs) Handles ans1b.Click
-        If ansr = "ans1" Then
-            corr = corr + 1
-            MsgBox("正解")
-            Runload()
-        Else
-            incorr = incorr + 1
-            MsgBox("不正解")
-            Runload()
-        End If
+        checkcor("ans1")
     End Sub
 
     Protected Sub ans2b_Click(sender As Object, e As EventArgs) Handles ans2b.Click
-        If ansr = "ans2" Then
-            corr = corr + 1
-            MsgBox("正解")
-            Runload()
-        Else
-            incorr = incorr + 1
-            MsgBox("不正解")
-            Runload()
-        End If
+        checkcor("ans2")
     End Sub
 
     Protected Sub ans3b_Click(sender As Object, e As EventArgs) Handles ans3b.Click
-        If ansr = "ans3" Then
+        checkcor("ans3")
+    End Sub
+
+    Private Sub checkcor(ByRef A As String)
+        Dim cor As String = ansr
+        If cor = A Then
             corr = corr + 1
             MsgBox("正解")
             Runload()
@@ -57,6 +46,8 @@
             MsgBox("不正解")
             Runload()
         End If
+        cor = Nothing
+        ansr = Nothing
     End Sub
 
     Private Sub Runload()
@@ -119,10 +110,6 @@
         ans3t.Text = T
     End Sub
 
-    Public Sub qans(ByRef T As String)
-        ansr = T
-    End Sub
-
     Public Sub loadq(Optional D As String = "n")
         If D = "e" Then 'Easy時の自動選別
             If readed = 0 Then
@@ -141,7 +128,7 @@
         qans1("シャッター音が大きくなる")
         qans2("画面が暗くなる")
         qans3("色合いが落ちる")
-        qans("ans2")
+        ansr = "ans2"
     End Sub
 
     Public Sub initQ2()
@@ -149,6 +136,6 @@
         qans1("6500")
         qans2("7500")
         qans3("12000")
-        qans("ans1")
+        ansr = "ans1"
     End Sub
 End Class
