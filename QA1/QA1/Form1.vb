@@ -4,7 +4,6 @@
 
 
     Public readed As Integer = 0
-    Public all As Integer = 15
     Public corr As Integer = 0
     Public incorr As Integer = 0
     Public now As Integer = 1
@@ -58,9 +57,6 @@
 
     Private Sub Runload()
         'Set many
-        Dim easyth As Integer = 6
-        Dim normth As Integer = 5
-        Dim highth As Integer = 4
         Dim easy As Integer = easyth
         normal = easyth + normth
         high = normal + highth

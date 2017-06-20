@@ -1,5 +1,10 @@
 ﻿Module Q
 
+    Public all As Integer = 15 '全問題数
+    Public easyth As Integer = 6 'Easy数
+    Public normth As Integer = 5 'Normal数
+    Public highth As Integer = 4 'Hard数
+
 End Module
 
 Module Q1
