@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="QA1.aspx.vb" Inherits="QA1_WebVer.Form1" %>
+<%@ OutputCache Location="None" VaryByParam="None" %>
 
 <!DOCTYPE html>
 
@@ -24,13 +25,19 @@
             <br />
             <asp:Button ID="ans1b" runat="server" Text="これを選ぶ" Width="200px" />
             <br />
+            <br />
             <asp:Label ID="ans2t" runat="server" Text="Label"></asp:Label>
             <br />
             <asp:Button ID="ans2b" runat="server" Text="これを選ぶ" Width="200px" />
             <br />
+            <br />
             <asp:Label ID="ans3t" runat="server" Text="Label"></asp:Label>
             <br />
             <asp:Button ID="ans3b" runat="server" Text="これを選ぶ" Width="200px" />
+            <br />
+            <br />
+            <BR>
+            <asp:TextBox ID="TextBox1" runat="server" Visible="True"></asp:TextBox>
         </center>
     </form>
 </body>

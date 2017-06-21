@@ -7,9 +7,9 @@
     Public normth As Integer = 9 'Normal数
     Public highth As Integer = 5 'Hard数
 
+    Public ansr As String
 
     Public readed As Integer
-    Public ansr As Integer
     Public high As Integer
     Dim normal As Integer
 
@@ -20,19 +20,20 @@
     Public tbox As String
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Response.Cache.SetCacheability(HttpCacheability.NoCache)
         Runload()
     End Sub
 
     Protected Sub ans1b_Click(sender As Object, e As EventArgs) Handles ans1b.Click
-        checkcor(1)
+        checkcor("1")
     End Sub
 
     Protected Sub ans2b_Click(sender As Object, e As EventArgs) Handles ans2b.Click
-        checkcor(2)
+        checkcor("2")
     End Sub
 
     Protected Sub ans3b_Click(sender As Object, e As EventArgs) Handles ans3b.Click
-        checkcor(3)
+        checkcor("3")
     End Sub
 
 
@@ -104,7 +105,6 @@
                 readed = readed + 1
             ElseIf readed = 1 Then
                 initQ2()
-                MsgBox(ansr)
                 readed = readed + 1
             End If
         End If
@@ -116,44 +116,35 @@
         qans1("シャッター音が大きくなる")
         qans2("画面が暗くなる")
         qans3("色合いが落ちる")
-        ansr = 2
+        ansr = "2"
         Exit Sub
     End Sub
 
     Public Sub initQ2()
-        ansr = 1
-        MsgBox(ansr)
         qname("恐竜が絶滅したのは約何万年前？")
         qans1("6500")
         qans2("7500")
         qans3("12000")
+        ansr = "1"
         Exit Sub
     End Sub
 
 
 
 
-    Private Function loadans()
-        Dim c3 As Integer = ansr + 1 - 1
-        Return c3
-    End Function
-    Private Sub checkcor(ByRef A As Integer)
-        Dim cor As Integer = loadans() + 1 - 1
 
-        MsgBox(ansr)
-        MsgBox(cor)
-        MsgBox(A)
-
-        If cor = A Then
+    Private Sub checkcor(ByRef A As String)
+        If ansr = A Then
             corr = corr + 1
             MsgBox("正解")
             Runload()
+            Exit Sub
         Else
             incorr = incorr + 1
             MsgBox("不正解")
             Runload()
+            Exit Sub
         End If
-        cor = Nothing
-        ansr = Nothing
     End Sub
+
 End Class
