@@ -25,15 +25,18 @@
     End Sub
 
     Protected Sub ans1b_Click(sender As Object, e As EventArgs) Handles ans1b.Click
-        checkcor("1")
+        Dim sran As String = ansr
+        checkcor(sran, "ans1")
     End Sub
 
     Protected Sub ans2b_Click(sender As Object, e As EventArgs) Handles ans2b.Click
-        checkcor("2")
+        Dim sran As String = ansr
+        checkcor(sran, "ans2")
     End Sub
 
     Protected Sub ans3b_Click(sender As Object, e As EventArgs) Handles ans3b.Click
-        checkcor("3")
+        Dim sran As String = ansr
+        checkcor(sran, "ans3")
     End Sub
 
 
@@ -116,8 +119,7 @@
         qans1("シャッター音が大きくなる")
         qans2("画面が暗くなる")
         qans3("色合いが落ちる")
-        ansr = "2"
-        Exit Sub
+        ansr = "ans2"
     End Sub
 
     Public Sub initQ2()
@@ -125,16 +127,16 @@
         qans1("6500")
         qans2("7500")
         qans3("12000")
-        ansr = "1"
-        Exit Sub
+        ansr = "ans1"
     End Sub
 
 
 
 
 
-    Private Sub checkcor(ByRef A As String)
-        If ansr = A Then
+
+    Private Sub checkcor(ByRef sr As String, ByRef A As String)
+        If sr = A Then
             corr = corr + 1
             MsgBox("正解")
             Runload()
@@ -146,5 +148,4 @@
             Exit Sub
         End If
     End Sub
-
 End Class
