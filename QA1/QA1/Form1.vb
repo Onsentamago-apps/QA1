@@ -4,13 +4,6 @@
 
     Public lat As String
     Public readed As Integer
-    Public qname As String
-    Public qtype As String
-    Public qans1 As String
-    Public qans2 As String
-    Public qans3 As String
-    Public ansr As String
-    Public pict As Bitmap
 
     Public diffic As String = "Easy"
     Public corr As Integer = 0
