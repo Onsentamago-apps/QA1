@@ -1,9 +1,9 @@
 ﻿Module Q
 
-    Public all As Integer = 20 '全問題数
+    Public all As Integer = 34 '全問題数
     Public easyth As Integer = 6 'Easy数
-    Public normth As Integer = 9 'Normal数
-    Public highth As Integer = 5 'Hard数
+    Public normth As Integer = 21 'Normal数
+    Public highth As Integer = 8 'Hard数
 
 End Module
 
@@ -528,6 +528,204 @@ Module Q20
         qans2 = "Windows XP"
         qans3 = "Windows 7"
         ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+' applyed diff
+
+Module Q21
+    Public Sub initQ21()
+        qname = "第三宇宙速度とは何km/sか"
+        qans1 = "16.7"
+        qans2 = "11.2"
+        qans3 = "300"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q22
+    Public Sub initQ22()
+        qname = "北欧神話は別名何神話と呼ばれるか"
+        qans1 = "デンマーク神話"
+        qans2 = "スカンディナビア神話"
+        qans3 = "フィンネスブルグ神話"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q23
+    Public Sub initQ23()
+        qname = "毒キノコであるカエンタケの致死量は何グラム"
+        qans1 = "100"
+        qans2 = "26"
+        qans3 = "3"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q24
+    Public Sub initQ24()
+        qname = “クォークでu、c、b足りない記号は何か"
+        qans1 = “t、k、d"
+        qans2 = "t、a、s"
+        qans3 = "d、s、t"
+        ansr = "ans3”
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q25
+    Public Sub initQ25()
+        qname = "水をアボガドロ定数個集めたら何グラムになるか"
+        qans1 = "18g"
+        qans2 = "21g"
+        qans3 = "20g"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q26
+    Public Sub initQ26()
+        qname = "パウリ効果とは"
+        qans1 = "素粒子の動きを説明したもの"
+        qans2 = "こうかはば（＾＿＾）☆つぐんだ"
+        qans3 = "接触や接近で機械等を破壊する効果"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q27
+    Public Sub initQ27()
+        qname = "相対性理論の問題です。正しいのは"
+        qans1 = "時と空間は絶対時間、絶対空間である"
+        qans2 = "時と空間は条件によって変化する"
+        qans3 = "光の速度不変"
+        ansr = ""
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q28
+    Public Sub initQ28()
+        qname = "北欧神話におけるムスぺルヘイムとは"
+        qans1 = "炎とスルトの世界"
+        qans2 = "炎の伝説龍"
+        qans3 = "民族のひとつ"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q29
+    Public Sub initQ29()
+        qname = "クトゥルフ神話に出てくる『無貌の神』とは"
+        qans1 = "グルーン"
+        qans2 = "アザトース"
+        qans3 = "ナイアルラトホテプ"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q30
+    Public Sub initQ30()
+        qname = "『カリ＝ユガ』とは"
+        qans1 = "ヒンドゥー教で信じられている終末"
+        qans2 = "ゾロアスター教で信じられている終末"
+        qans3 = "拝火教で信じられている終末"
+        ansr = ""
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q31
+    Public Sub initQ31()
+        qname = "次の内、角竜は?"
+        qans1 = "アマルガサウルス"
+        qans2 = "トロサウルス"
+        qans3 = "エドモンドサウルス"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q32
+    Public Sub initQ32()
+        qname = "南極で化石が発見された恐竜は"
+        qans1 = "カルカロドントサウルス"
+        qans2 = "パキケファロサウルス"
+        qans3 = "クリオロフォサウルス"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q33
+    Public Sub initQ33()
+        qname = "オーディンの居城があるのは"
+        qans1 = "グラズヘイム"
+        qans2 = "エリンヘリャル"
+        qans3 = "ヴァナヘイム"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q34
+    Public Sub initQ34()
+        qname = "『詩のエッダ』はいくつの詩で構成されているか"
+        qans1 = "39"
+        qans2 = "29"
+        qans3 = "11"
+        ansr = "ans2"
         Form1.ans1.Text = qans1
         Form1.ans2.Text = qans2
         Form1.ans3.Text = qans3
