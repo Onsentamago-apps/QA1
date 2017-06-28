@@ -93,10 +93,9 @@
         Exit Sub
     End Sub
     Private Function Calcper(Optional A As Integer = 0, Optional N As Integer = 0)
-        Dim c1 As Double = A / N
-        Dim c2 As Double = 100 / c1
-        Dim c3 As Double = Math.Floor(c2)
-        Return c3
+        Dim ans As Double = N / A * 100
+        Dim res As Double = Math.Floor(ans)
+        Return res
     End Function
 
     Public Sub loadq(Optional D As String = "n")
