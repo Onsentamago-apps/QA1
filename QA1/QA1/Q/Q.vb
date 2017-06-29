@@ -5,6 +5,8 @@
     Public normth As Integer = 21 'Normal数
     Public highth As Integer = 8 'Hard数
 
+    'Q30 is Error of Level5
+
 End Module
 
 Module Q1
@@ -626,8 +628,8 @@ Module Q27
         qname = "相対性理論の問題です。正しいのは"
         qans1 = "時と空間は絶対時間、絶対空間である"
         qans2 = "時と空間は条件によって変化する"
-        qans3 = "光の速度不変"
-        ansr = ""
+        qans3 = “時と空間は関連付ける事が出来ない"
+        ansr = ”ans2"
         Form1.ans1.Text = qans1
         Form1.ans2.Text = qans2
         Form1.ans3.Text = qans3
