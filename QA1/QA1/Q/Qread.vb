@@ -138,6 +138,36 @@
             ElseIf readed = 9 Then
                 initQ38()
                 readed = readed + 1
+            ElseIf readed = 10 Then
+                initQ41()
+                readed = readed + 1
+            ElseIf readed = 11 Then
+                initQ42()
+                readed = readed + 1
+            ElseIf readed = 12 Then
+                initQ43()
+                readed = readed + 1
+            ElseIf readed = 13 Then
+                initQ44()
+                readed = readed + 1
+            ElseIf readed = 14 Then
+                initQ45()
+                readed = readed + 1
+            ElseIf readed = 15 Then
+                initQ46()
+                readed = readed + 1
+            ElseIf readed = 16 Then
+                initQ47()
+                readed = readed + 1
+            ElseIf readed = 17 Then
+                initQ48()
+                readed = readed + 1
+            ElseIf readed = 18 Then
+                initQ49()
+                readed = readed + 1
+            ElseIf readed = 19 Then
+                initQ50()
+                readed = readed + 1
             End If
         End If
     End Sub

@@ -1,9 +1,9 @@
 ﻿Module Q
 
-    Public all As Integer = 40 '全問題数
+    Public all As Integer = 50 '全問題数
     Public easyth As Integer = 7 'Easy数
     Public normth As Integer = 24 'Normal数
-    Public highth As Integer = 9 'Hard数
+    Public highth As Integer = 20 'Hard数
 
 End Module
 
@@ -809,6 +809,146 @@ Module Q40 'n
         qans1 = "WSOL"
         qans2 = "WSOA"
         qans3 = "WSOI"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q41
+    Public Sub initQ41()
+        qname = "シュミレーション仮説の哲学的土台"
+        qans1 = "デカルトの主張"
+        qans2 = "カントの主張"
+        qans3 = "フッサールの主張"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q42
+    Public Sub initQ42()
+        qname = "四日市ぜんそくの原因物質"
+        qans1 = "NOX"
+        qans2 = "SOX"
+        qans3 = "linux"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q43
+    Public Sub initQ43()
+        qname = "1年で1光年を超えて進めるか"
+        qans1 = "そんなことよりおうどんたべたい"
+        qans2 = "進める"
+        qans3 = "進めない"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q44
+    Public Sub initQ44()
+        qname = "秒速20kmの物体から同じ速度の物体を投げるとどうなる"
+        qans1 = "速さ40km"
+        qans2 = "速さ20km"
+        qans3 = "速さ30km"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q45
+    Public Sub initQ45()
+        qname = "真空の別の視点から見た時の20万km×2は”
+        qans1 = "40万km"
+        qans2 = "36万km"
+        qans3 = "27.7km"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q46
+    Public Sub initQ46()
+        qname = "ブラックホールに落ちる人は境界面でどう見えるか"
+        qans1 = "どうしてそんなに愚かなの"
+        qans2 = "そもそも見えない"
+        qans3 = "境界面で殆ど止まって見える"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q47
+    Public Sub initQ47()
+        qname = "秒速約24万kmの物体内の時間の進み方"
+        qans1 = "停止状態の40パーセント"
+        qans2 = "停止状態の50パーセント"
+        qans3 = "停止状態の60パーセント"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q48
+    Public Sub initQ48()
+        qname = "先程の問題のシャトルが目的地に到着した後の奇妙な事とは"
+        qans1 = "時間の遅れが元に戻る"
+        qans2 = "タイムパラドックスが起きる"
+        qans3 = "シャトル視点の地球の時間が進む"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q49 'h
+    Public Sub initQ49()
+        qname = "次の内、海王星の衛星はどれか"
+        qans1 = "ヒイアカ"
+        qans2 = "ネレイド"
+        qans3 = "ウルスラ"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q50 'h 
+    Public Sub initQ50()
+        qname = "このソフトの問題の最終コミット数は"
+        qans1 = "89"
+        qans2 = "56"
+        qans3 = "33"
         ansr = "ans1"
         Form1.ans1.Text = qans1
         Form1.ans2.Text = qans2
