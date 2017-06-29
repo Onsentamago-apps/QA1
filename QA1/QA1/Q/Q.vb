@@ -165,7 +165,7 @@ Module Q5
 End Module
 
 Module Q6
-    Public Q6name As String = "童話『眠れる森の美女』において、美女がいる城は何で覆われている?" '問題 
+    Public Q6name As String = "『眠れる森の美女』で、美女がいる城は何で覆われている?" '問題 
     Public Q6type As String = "select"　'問題の種類（） 
     Public Q6ans1 As String = "薔薇"
     Public Q6ans2 As String = "鉄条網"
