@@ -671,7 +671,7 @@ Module Q30
         qans1 = "ヒンドゥー教で信じられている終末"
         qans2 = "ゾロアスター教で信じられている終末"
         qans3 = "拝火教で信じられている終末"
-        ansr = ""
+        ansr = "ans1"
         Form1.ans1.Text = qans1
         Form1.ans2.Text = qans2
         Form1.ans3.Text = qans3
