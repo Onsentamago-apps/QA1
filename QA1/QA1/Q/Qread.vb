@@ -29,6 +29,9 @@
             ElseIf readed = 5 Then
                 initQ11()
                 readed = readed + 1
+            ElseIf readed = 6 Then
+                initQ37()
+                readed = readed + 1
             End If
         ElseIf D = "n" Then 'nomal時の自動選別
             If readed = 0 Then
@@ -94,7 +97,15 @@
             ElseIf readed = 20 Then
                 initQ32()
                 readed = readed + 1
-
+            ElseIf readed = 21 Then
+                initQ35()
+                readed = readed + 1
+            ElseIf readed = 22 Then
+                initQ39()
+                readed = readed + 1
+            ElseIf readed = 23 Then
+                initQ40()
+                readed = readed + 1
             End If
         ElseIf D = "h" Then 'hard時の自動選別
             If readed = 0 Then
@@ -120,6 +131,12 @@
                 readed = readed + 1
             ElseIf readed = 7 Then
                 initQ34()
+                readed = readed + 1
+            ElseIf readed = 8 Then
+                initQ36()
+                readed = readed + 1
+            ElseIf readed = 9 Then
+                initQ38()
                 readed = readed + 1
             End If
         End If

@@ -1,9 +1,9 @@
 ﻿Module Q
 
-    Public all As Integer = 34 '全問題数
-    Public easyth As Integer = 6 'Easy数
-    Public normth As Integer = 21 'Normal数
-    Public highth As Integer = 8 'Hard数
+    Public all As Integer = 40 '全問題数
+    Public easyth As Integer = 7 'Easy数
+    Public normth As Integer = 24 'Normal数
+    Public highth As Integer = 9 'Hard数
 
 End Module
 
@@ -733,3 +733,86 @@ Module Q34
     End Sub
 End Module
 
+Module Q35 'N
+    Public Sub initQ35()
+        qname = "Symantecが作っているのは何でしょう"
+        qans1 = "Noton Internet Security"
+        qans2 = "ESET Smart Security"
+        qans3 = "Intel i7 Prosessor"
+        ansr = "qans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q36 'h
+    Public Sub initQ36()
+        qname = “Canonicalが提供しているのは何でしょう"
+        qans1 = "Ubuntu"
+        qans2 = "CentOS"
+        qans3 = "Landscope"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q37 'e
+    Public Sub initQ37()
+        qname = "Androidはどこが提供してる？"
+        qans1 = "Microsoft Corp."
+        qans2 = "Google Inc."
+        qans3 = "ARM"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q38
+    Public Sub initQ38() 'h
+        qname = "Microsoftの新プラットフォームの名前は？"
+        qans1 = "AOSP"
+        qans2 = "UAC"
+        qans3 = "UWP"
+        ansr = "ans3"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q39 'n
+    Public Sub initQ39()
+        qname = "Fateシリーズの原作の名前は？"
+        qans1 = "Fate/Zero"
+        qans2 = "Fate/stay night"
+        qans3 = "プリズマイリヤ"
+        ansr = "ans2"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
+
+Module Q40 'n
+    Public Sub initQ40()
+        qname = "Windows10に追加されたこれまでのMicrosoftでは" & Environment.NewLine & “ありえない機能は？”
+        qans1 = "WSOL"
+        qans2 = "WSOA"
+        qans3 = "WSOI"
+        ansr = "ans1"
+        Form1.ans1.Text = qans1
+        Form1.ans2.Text = qans2
+        Form1.ans3.Text = qans3
+        Form1.Label1.Text = qname
+    End Sub
+End Module
