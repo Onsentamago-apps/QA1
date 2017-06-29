@@ -5,8 +5,6 @@
     Public normth As Integer = 21 'Normal数
     Public highth As Integer = 8 'Hard数
 
-    'Q30 is Error of Level5
-
 End Module
 
 Module Q1
