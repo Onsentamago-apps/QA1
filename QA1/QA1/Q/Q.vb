@@ -739,7 +739,7 @@ Module Q35 'N
         qans1 = "Noton Internet Security"
         qans2 = "ESET Smart Security"
         qans3 = "Intel i7 Prosessor"
-        ansr = "qans1"
+        ansr = "ans1"
         Form1.ans1.Text = qans1
         Form1.ans2.Text = qans2
         Form1.ans3.Text = qans3
